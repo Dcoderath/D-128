@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Folder Bookmark Manager",
+  "version": "1.0",
+  "description": "Save bookmarks in folders",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}
